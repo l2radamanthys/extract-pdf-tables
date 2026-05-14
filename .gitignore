@@ -3,5 +3,6 @@
 *.pyo
 .venv/
 output/
+input/
 *.pdf
 *.csv
