@@ -118,7 +118,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extractor de tablas de archivos PDF o carpetas con PDFs a Excel")
     
     # Argumento obligatorio: ruta del PDF o carpeta
-    parser.add_argument("entrada", help="Ruta del archivo PDF o carpeta de PDFs a procesar")
+    parser.add_argument("entrada", default="input", help="Ruta del archivo PDF o carpeta de PDFs a procesar")
     
     # Argumento opcional: carpeta de salida (por defecto 'output')
     parser.add_argument("-o", "--output", default="output", 
